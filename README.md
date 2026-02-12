@@ -4,6 +4,7 @@
 
 <img width="798" height="637" alt="ObjectDetect" src="https://github.com/user-attachments/assets/4bdf846c-e29b-4497-825e-7d06669ee77f" />
 
+---
 
 ##  Features
 
@@ -11,6 +12,8 @@
 * **80+ Categories**: Detects a wide range of common objects (people, vehicles, laptops, bottles, etc.) based on the COCO dataset.
 * **Dynamic UI**: Overlays precise bounding boxes, class labels, and confidence scores.
 * **Lightweight Architecture**: Designed to run efficiently on standard hardware without requiring a dedicated high-end GPU.
+
+---
 
 ##  Installation & Setup
 
@@ -38,6 +41,8 @@ You must download the **EfficientDet-Lite0 (float32)** model and place it in the
 * **Model Name**: `efficientdet_lite0.tflite`
 * **Source**: [Google MediaPipe Model Garden](https://www.google.com/search?q=https://ai.google.dev/edge/mediapipe/solutions/vision/object_detector%23models).
 
+---
+
 ##  How to Use
 
 1. **Run the application**:
@@ -54,19 +59,27 @@ python ObjectDetect.py
 
 3. **Exit**: Press **'q'** on your keyboard to close the window.
 
+---
+
 ##  How It Works
 
 1. **Preprocessing**: The input frame is mirrored and converted from BGR (OpenCV standard) to RGB (MediaPipe standard).
 2. **Inference**: The frame is passed to the `ObjectDetector` task, which performs a single pass to identify multiple objects simultaneously.
 3. **Visualization**: The result contains normalized coordinates which are mathematically mapped back to your screen's pixel dimensions to draw the bounding boxes accurately.
 
+---
+
 ##  License
 
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
+---
+
 ##  Acknowledgments
 
-* Powered by [Google MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide).
-* Trained on the [COCO Dataset](https://cocodataset.org/).
+* **[Google MediaPipe](https://ai.google.dev/edge/mediapipe/solutions/guide)**: For providing the robust Face Landmarker Tasks API and pre-trained `.task` models.
+* **[OpenCV (Open Source Computer Vision Library)](https://opencv.org/)**: For the powerful real-time image processing and visualization tools.
+* **[The COCO Dataset Team](https://cocodataset.org/)**: For their foundational work in standardizing computer vision training data.
+* **[NumPy](https://numpy.org/)**: For the efficient numerical processing required for coordinate mapping.
 
 ---
