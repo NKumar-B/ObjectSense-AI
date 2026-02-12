@@ -2,6 +2,9 @@
 
 **AirLens-Vision** is a high-speed computer vision application that identifies and labels objects in real-time. Built with the modern **MediaPipe Tasks API** and **OpenCV**, it utilizes the **EfficientDet-Lite0** model to provide professional-grade object detection directly on a live camera feed.
 
+<img width="798" height="637" alt="ObjectDetect" src="https://github.com/user-attachments/assets/4bdf846c-e29b-4497-825e-7d06669ee77f" />
+
+
 ##  Features
 
 * **Real-Time Inference**: Optimized for live video streams with minimal latency.
