@@ -64,7 +64,7 @@ while cap.isOpened():
                     cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 0, 0), 2)
 
     # Display the final frame with overlays.
-    cv2.imshow("AirLens - Object Detection", frame)
+    cv2.imshow("AirLens - Vision", frame)
     
     # Exit the loop if the 'q' key is pressed.
     if cv2.waitKey(1) & 0xFF == ord('q'): 
@@ -72,4 +72,5 @@ while cap.isOpened():
 
 # Cleanup resources.
 cap.release()
+
 cv2.destroyAllWindows()
