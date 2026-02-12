@@ -25,7 +25,15 @@ cd ObjectSense-AI
 
 ```
 
-### 2. Install Dependencies
+### 2. Set Up a Virtual Environment (Recommended)
+
+```bash
+python -m venv .venv
+.\.venv\Scripts\activate
+
+```
+
+### 3. Install Dependencies
 
 Ensure you have Python 3.9+ installed, then run:
 
@@ -34,7 +42,7 @@ pip install -r requirements.txt
 
 ```
 
-### 3. Download the Model
+### 4. Download the Model
 
 You must download the **EfficientDet-Lite0 (float32)** model and place it in the project root:
 
