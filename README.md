@@ -12,7 +12,7 @@
 * **80+ Categories**: Detects a wide range of common objects (people, vehicles, laptops, bottles, etc.) based on the COCO dataset.
 * **Dynamic UI**: Overlays precise bounding boxes, class labels, and confidence scores.
 * **Lightweight Architecture**: Designed to run efficiently on standard hardware without requiring a dedicated high-end GPU.
-  
+   
 ---
 
 ##  Installation & Setup
