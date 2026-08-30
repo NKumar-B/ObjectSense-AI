@@ -14,7 +14,7 @@
 * **Lightweight Architecture**: Designed to run efficiently on standard hardware without requiring a dedicated high-end GPU.
     
 ---  
-
+ 
 ##  Installation & Setup
 
 ### 1. Clone the Repository
